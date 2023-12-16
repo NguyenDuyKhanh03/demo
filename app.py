@@ -7,7 +7,7 @@ from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
 
 # Đọc dữ liệu từ tệp CSV
-train_df = pd.read_csv("/Users/DELL/Downloads/train.csv")
+train_df = pd.read_csv("/train.csv")
 
 # Hàm xử lý dữ liệu
 def manipulate_df(df):
